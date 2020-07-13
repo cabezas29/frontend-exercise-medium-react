@@ -1,0 +1,27 @@
+.contenido__inicio--principal {
+  display: flex;
+  background: #ffffff;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.title__descripcion {
+  padding: 5px 0px;
+  font-size: 20px;
+  color: #c84451;
+}
+
+.inicio--descripcion p {
+  padding-right: 15px;
+}
+
+figure {
+  background: #ffffff;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+figure img {
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+}
