@@ -1,3 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f4f4f4;
+}
+
 .social__media {
   display: inline-block;
   width: 30px;
