@@ -10,6 +10,7 @@ function App() {
       <Header />
       <main>
         <Inicio />
+        <Final />
       </main>
     </div>
   );
