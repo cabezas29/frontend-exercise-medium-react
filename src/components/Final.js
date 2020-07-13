@@ -1,4 +1,6 @@
 import React from 'react'
+import './Styles/Final.css'
+import Gatico from '../assets/final.jpg'
 
 function Final() {
   return(
@@ -16,7 +18,7 @@ function Final() {
             {/* <a hrefName="#">Leer más</a> */}
           </div>
         </article>
-          <hr/>
+          <hr className="contenido--linea" />
         <article class="contenido--articulos">
           <div class="contenido--encabazados">
             <h5>El 28 de octubre de 2012</h5>
@@ -29,7 +31,7 @@ function Final() {
               {/* <a href="#">Leer más</a> */}
           </div>
         </article>
-        <hr/>
+          <hr className="contenido--linea" />
         <article class="contenido--articulos">
           <div class="contenido--encabazados">
             <h5>El 27 de octubre de 2012</h5>
@@ -42,7 +44,7 @@ function Final() {
             {/* <a href="#">Leer más</a> */}
           </div>
         </article>
-          <hr/>
+          <hr className="contenido--linea" />
         <article className="contenido--articulos">
           <div className="contenido--encabazados">
           <h5>El 26 de octubre de 2012</h5>
@@ -57,7 +59,7 @@ function Final() {
         </article>
       </section>
       <section className="contenido__final">
-          <img src="../assets/final.jpg" alt="" />
+          <img src={Gatico} alt="" />
         <div>
           <p className="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea modi voluptate cupiditate tempore iusto, ullam numquam ipsum cumque, eligendi placeat, voluptatibus distinctio magni autem perferendis aut officiis porro officia consectetur?</p>
         </div>
