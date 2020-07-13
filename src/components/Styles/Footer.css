@@ -1,0 +1,29 @@
+.social__media {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.social__media.twitter {
+  background-image: url("../../assets/twitter.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.facebook {
+  background-image: url("../../assets/facebook.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.spotify {
+  background-image: url("../../assets/logo.svg");
+  background-size: 30px 30px;
+}
+
+.social__media.youtube {
+  background-image: url("../../assets/youtube.svg");
+  background-size: 30px 30px;
+}
+
+.copyrigth p {
+  font-size: 10px;
+}
